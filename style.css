@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container .header{
+display: flex;
+background-color: rgba(66, 40, 3, 0.815);
+justify-content: space-between;
+}
+.container .header .navmenu ul{
+    display: flex;
+    list-style-type: none;
+}
+.container .header .logo img{
+    height: 150px;
+    width: 150px;
+}
+.container .header .navmenu ul li{
+    margin: 25px;
+    font-size: 45px;
+    color: white;
+}
+.container .header .navmenu ul :hover{
+ color: rgb(255, 149, 0)
+}
+
+.container .header .navmenu ul li button{
+    margin: 25px;
+    font-size: 45px;
+    color: white;
+    background-color: rgb(53, 32, 5);
+    margin-top: 7px;
+}
+.container .heroespage{
+    background-image: url(../dominion\ Aderkoya.png);
+    height: 800px;
+    margin-top: -100px;
+}
+.container .heroespage h2{
+font-size: 66px;
+color: white;
+text-align: center;
+padding-top: 200px;
+}
+.container .heroespage h3{
+    font-size: 33px;
+color: white;
+text-align: center;
+padding-top: 50px;
+
+}
+.maincontent .facility {
+ display:flex;
+ justify-content: space-around;
+}
+.maincontent .facility img{
+    width: 400px;
+    height: 250px;
+
+
+}
+.maincontent .facility .adminoffice{
+    border-radius: 10px;
+    background: rgb(39, 39, 163);
+    padding: 70px;
+}
+
+.maincontent .facility .ceosection{
+    border-radius: 10px;
+    background: rgb(44, 44, 163);
+    padding: 70px;
+}
+.maincontent .facility .coo{
+    border-radius: 10px;
+    background: rgb(44, 44, 151);
+    padding: 70px;
+}
+
+.maincontent .facility h2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(233, 233, 233);
+}
+.maincontent .facility p{
+    width: 400px;
+    color: rgb(235, 235, 236);
+    
+}
